@@ -85,8 +85,8 @@ bool can_carry(int mid, int n, int k)
 
 void solve(int n, int k)
 {
-    int high = 100000;
-    int low = 1;
+    int high = INT32_MAX;
+    int low = 0;
     int answer = -1;
 
     std::sort(arr, arr + n);
